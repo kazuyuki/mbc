@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Mini Basketball Planner</title>
+  <link rel="manifest" href="/mbc/manifest.json" />
+</head>
+<body>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register(
+        '/mbc/sw.js'
+      );
+    }
+  </script>
+MBC
+</body>
+</html>
