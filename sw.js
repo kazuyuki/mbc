@@ -1,7 +1,7 @@
 // キャッシュファイルの指定
 var CACHE_NAME = 'pwa-sample-caches';
 var urlsToCache = [
-    '/kazuyuki.github.io/',
+    '/mbc',
 ];
 
 // インストール処理
