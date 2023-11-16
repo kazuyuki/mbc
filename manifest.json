@@ -1,1 +1,20 @@
-
+{
+  "name": "Plan B - Planner for Mini Basketball",
+  "short_name": "PlanB",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "description": "Planner for Basketball",
+  "dir": "ltr",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
