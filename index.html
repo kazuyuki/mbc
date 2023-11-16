@@ -3,13 +3,12 @@
   <meta charset="utf-8" />
   <title>Mini Basketball Planner</title>
   <link rel="manifest" href="/mbc/manifest.json" />
+  <link rel="canonical" href="https://kazuyuki.github.io/mbc/" />
 </head>
 <body>
   <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register(
-        '/mbc/sw.js'
-      );
+  if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/mbc/sw.js', {scope: '/mbc/'})
     }
   </script>
 MBC
