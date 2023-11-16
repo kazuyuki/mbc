@@ -6,8 +6,8 @@
   "description": "Planner for Basketball",
   "dir": "ltr",
   "display": "standalone",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "/mbc/",
+  "start_url": "/mbc/",
   "categories": [
     "kids",
     "sports"
