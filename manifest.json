@@ -8,7 +8,10 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "categories": [],
+  "categories": [
+    "kids",
+    "sports"
+  ],
   "screenshots": [],
   "icons": [
     {
